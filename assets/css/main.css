@@ -546,12 +546,14 @@ input, select, textarea {
 			font-weight: 900;
 			letter-spacing: -0.035em;
 			line-height: 1em;
+			margin-top: 40px;
 		}
 
 		#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
-			opacity: 0.75;
+			opacity: 0.90;
+			font-weight: bold;
 		}
 
 		#header nav {
@@ -696,6 +698,14 @@ input, select, textarea {
 				#header nav a span {
 					display: none;
 				}
+				#header .avatar img {
+				display: block;
+				margin: 0 auto;
+				border-radius: 100%;
+				box-shadow: 0 0 0 1em #ffffff;
+				width: 200px;
+				height: 200px;
+			}
 
 /* Footer */
 
